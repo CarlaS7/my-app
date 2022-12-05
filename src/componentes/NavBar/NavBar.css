@@ -1,0 +1,18 @@
+.img-brc {
+    width: 100px;
+}
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #434343;
+    color: #faebd7;
+}
+.NarBar a{
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './componentes/NavBar/NavBar';
 import Turismo from './componentes/Turismo';
+
 function App() {
   return (
     <div className="App">
+      <headers className="A-header">
+      <NavBar/>
+      </headers>
+    <main className="App.main"></main>
       <div className='contenedor-principal'>
        <h1>Este verano cambiá de aire en Bariloche </h1>
        <Turismo 
