@@ -10,8 +10,12 @@
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #434343;
-    color: #faebd7;
-    width: 100px;
+    background-color: #0a3099;
+    width: 1903px;
     height: auto;
+}
+
+.NavBar a {
+    text-decoration: none;
+    color:white
 }
