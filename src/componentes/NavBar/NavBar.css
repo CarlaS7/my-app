@@ -1,6 +1,8 @@
-.img-brc {
+.logo {
     width: 100px;
+    height: auto;
 }
+
 .NavBar {
     display: flex;
     flex-direction: row;
@@ -10,9 +12,6 @@
     align-items: center;
     background-color: #434343;
     color: #faebd7;
+    width: 100px;
+    height: auto;
 }
-.NarBar a{
-    text-decoration: none;
-    color: white;
-}
-

@@ -1,13 +1,14 @@
 import React from 'react'
-import Brc from './Brc.png'
+import logo from './logo.png'
+
 const NavBar = () => {
   return (
     <nav className='NavBar'>
-        <img className='brc' src={Brc} alt="brc" />
+        <img className='logo' src={logo} alt="brc" />
 
-        <a href="aboutme">About me</a>
-        <a href="/contact">Contact</a>
-        <a href="#footer">Redes</a>
+        <a href="aboutme">Nosotros</a>
+        <a href="/contact">Actividades</a>
+        <a href="#footer">Contactame</a>
     </nav>
   )
 }
