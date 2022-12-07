@@ -2,7 +2,7 @@ import './App.css';
 import Turismo from './componentes/Turismo';
 import NavBar from './componentes/NavBar/NavBar';
 import Footer from './componentes/Footer/Footer';
-
+import Carousel from './componentes/Carousel/Carousel';
 function App() {
   return (
     <div className="App">
@@ -10,6 +10,7 @@ function App() {
       <NavBar/>
       </headers>
     <main className="App.main"></main>
+    <Carousel/>
       <div className='contenedor-principal'>
        <h1>Este verano cambiá de aire en Bariloche </h1>
        
