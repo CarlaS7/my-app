@@ -9,9 +9,9 @@ const NavBar = () => {
 
         <a href="aboutme">Temporadas</a>
         <a href="/contact">Actividades</a>
-        <a href="#footer">Datos Interesantes</a>
-        <a href="#footer">Promociones</a>
-        <a href="#footer">Contactanos</a>
+        <a href="#info">Datos Interesantes</a>
+        <a href="#Promo">Promociones</a>
+        <a href="#Footer">Contactanos</a>
     </nav>
   )
 }

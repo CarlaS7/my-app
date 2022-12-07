@@ -1,7 +1,7 @@
 import './App.css';
 import Turismo from './componentes/Turismo';
 import NavBar from './componentes/NavBar/NavBar';
-
+import Footer from './componentes/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
     <main className="App.main"></main>
       <div className='contenedor-principal'>
        <h1>Este verano cambiá de aire en Bariloche </h1>
+       
        <Turismo 
        temporada='Verano'
        turismo='Bariloche es el destino ideal para cambiar de aire y llenarte de la mejor energía natural. Te espera con actividades y paisajes que estimularán todos tus sentidos. Ya sea cuando respires sus mañanas frescas a orillas del lago, cuando te llenes de sus tardes cálidas en la montaña o recorriendo algún sendero rodeado de bosques.'
@@ -30,8 +31,11 @@ function App() {
        temporada='Primavera'
        turismo='Sentí la inmensidad de los aromas que te ofrece la ciudad en primavera y dejate atrapar por la intensidad de sus colores bajo el cálido sol que comienza a disipar las heladas del invierno. Bariloche, cada temporada una ciudad diferente.'
        imagen='primavera'/>
+       
+       <Footer/>
       </div>
     </div>
+    
   );
 }
 
