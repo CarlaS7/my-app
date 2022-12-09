@@ -10,9 +10,9 @@ function App() {
       <NavBar/>
       </headers>
     <main className="App.main"></main>
-    <Carousel/>
+     <Carousel />
       <div className='contenedor-principal'>
-       <h1>Este verano cambiá de aire en Bariloche </h1>
+        <h1>Este verano cambiá de aire en Bariloche </h1>
        
        <Turismo 
        temporada='Verano'
