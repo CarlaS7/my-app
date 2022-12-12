@@ -3,6 +3,9 @@ import Turismo from './componentes/Turismo';
 import NavBar from './componentes/NavBar/NavBar';
 import Footer from './componentes/Footer/Footer';
 import Carousel from './componentes/Carousel/Carousel';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -32,6 +35,8 @@ function App() {
        temporada='Primavera'
        turismo='Sentí la inmensidad de los aromas que te ofrece la ciudad en primavera y dejate atrapar por la intensidad de sus colores bajo el cálido sol que comienza a disipar las heladas del invierno. Bariloche, cada temporada una ciudad diferente.'
        imagen='primavera'/>
+       
+
        
        <Footer/>
       </div>
